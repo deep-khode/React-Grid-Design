@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './style.css';
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 class Header extends Component {
   render() {
     return (
@@ -11,8 +12,8 @@ class Header extends Component {
             </a>
           </div>
           <div className="right-header">
-            <div>
-                Explore Categories
+            <div style={{display: 'flex'}}>
+                Explore Categories <KeyboardArrowDownIcon />
             </div>
             <div className="text-buttonDiv">
                 <div className="headerText">
